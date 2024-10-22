@@ -1,21 +1,30 @@
 package river;
 
-import river.GameEngine.Location;
+
+import java.awt.*;
 
 public class GameObject {
 
-    protected String name;
-    protected Location location;
+    private final String label;
+    private Location location;  // Use the correct 'Location' enum from the river package
+    private final Color color;
+    private final boolean isDriver;
 
-    public String getName() {
-        return name;
+    // Constructor to initialize name, location, sound, and isDriver
+    public GameObject(String label, Location location, Color color, boolean isDriver) {
+        this.label = label;
+        this.location = location;
+        this.color = color;
+        this.isDriver = isDriver;  // Farmer would have this set to true, others false
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public String getLable() {
+
+        return label;
     }
-    
+
     public Location getLocation() {
+
         return location;
     }
 
@@ -23,15 +32,14 @@ public class GameObject {
         this.location = loc;
     }
 
-    public String getSound() {
-        switch (name) {
-        case "Wolf":
-            return "Howl";
-        case "Goose":
-            return "Honk";
-        default:
-            return "";
-        }
+
+    public Color getColor() {
+        return color;
+    }
+
+    // Getter for isDriver
+    public boolean isDriver() {
+        return isDriver;
     }
 
 }
