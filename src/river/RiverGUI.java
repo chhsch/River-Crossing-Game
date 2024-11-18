@@ -17,6 +17,7 @@ public class RiverGUI extends JPanel implements MouseListener {
     // ==========================================================
     // Fields (hotspots)
     // ==========================================================
+
     // Base coordinates for left shore, right shore, and boat
     private final int leftBaseX = 20;
     private final int leftBaseY = 275;
