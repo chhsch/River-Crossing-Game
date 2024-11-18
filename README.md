@@ -1,6 +1,6 @@
-# River Crossing Project
+# River Crossing Game
 
-The **River Crossing Project** is a software engineering project that simulates and extends classic river-crossing puzzles, such as the "Farmer, Wolf, Goose, and Beans" game. This project demonstrates principles of clean code, extensibility, and rigorous testing by designing a modular game engine and an interactive GUI.
+The **River Crossing Game** is a software engineering project that simulates and extends classic river-crossing puzzles, such as the "Farmer, Wolf, Goose, and Beans" game. This project demonstrates principles of clean code, extensibility, and rigorous testing by designing a modular game engine and an interactive GUI.
 
 ---
 
